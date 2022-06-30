@@ -3,7 +3,7 @@
     .section1 {
         background-image: url(/images/slider-bg-1.jpg);
         width: 100%;
-        height: auto;
+        height: 85vh;
         margin: 0px;
         margin-top: -20px;
     }
@@ -35,9 +35,7 @@
     }
 
     .head2 img {
-        width: 90%;
-        height: 150px !important;
-        margin-top: 1rem;
+       display: none;
     }
 
     .about-Us .p_1 {
@@ -487,6 +485,10 @@
         position: relative;
 
     }
+    .img1 img {
+        width: 90%;
+        height: 150px;
+    }
 
     .expert {
         display: flex;
@@ -495,7 +497,7 @@
         flex-direction: column;
         width: 100%;
         height: 130vh;
-        margin-top: 11rem !important;
+        margin-top: 5rem !important;
     }
 
     .expert_1 {
@@ -503,7 +505,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 11rem;
+        margin-top: 5rem !important;
     }
 
     .expert_1 h2 {
@@ -517,7 +519,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 2rem !important;
     }
 
     .community {
@@ -734,10 +736,11 @@
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 @media (min-width:375px) and (max-width:425px) {
+
     .section1 {
         background-image: url(/images/slider-bg-1.jpg);
         width: 100%;
-        height: auto;
+        height: 85vh !important;
         margin: 0px;
         margin-top: -20px;
     }
@@ -769,9 +772,7 @@
     }
 
     .head2 img {
-        width: 90%;
-        height: 150px !important;
-        margin-top: 1rem;
+       display: none;
     }
 
     .about-Us .p_1 {
@@ -800,7 +801,7 @@
         border: 2px solid white;
         border-radius: 5px;
         color: white;
-        margin-top: 1rem;
+        margin-top: 0rem !important;
         transition: color 2s linear;
         position: relative;
     }
@@ -830,7 +831,7 @@
 
     .btn2 {
         font-size: 10px;
-        margin-top: 1rem;
+        margin-top: 1rem !important;
     }
 
     .m2 {
@@ -848,7 +849,7 @@
     .m2 p {
         font-size: 0.8rem;
         opacity: 0.8;
-        margin-top: 0rem;
+        margin-top: 1rem !important;
         padding: 20px;
         text-align: center;
     }
@@ -895,7 +896,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 2rem !important;
     }
 
     .features {
@@ -1077,7 +1078,7 @@
 
     .support {
         width: 100%;
-        height: 125vh;
+        height: 125vh !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1098,8 +1099,8 @@
     }
 
     .support2 i {
-        height: 55px;
-        width: 55px;
+        height: 55px !important;
+        width: 55px !important;
         background: #f8395d;
         border-radius: 5px;
         display: block;
@@ -1138,7 +1139,7 @@
     }
 
     .item p {
-        margin-top: 5px;
+        margin-top: 5px !important;
         text-align: center;
         font-size: 12px;
         color: black;
@@ -1202,7 +1203,10 @@
         color: #a640d0;
         font-size: 12px;
     }
-
+    .img1 img {
+        width: 90%;
+        height: 150px;
+    }
     .img img {
         width: 240px;
         height: 240px;
@@ -1228,8 +1232,8 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 130vh;
-        margin-top: 11rem !important;
+        height: 100vh !important;
+        margin-top: 5rem !important;
     }
 
     .expert_1 {
@@ -1237,7 +1241,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 11rem;
+        margin-top: 5rem !important;
     }
 
     .expert_1 h2 {
@@ -1251,7 +1255,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 2rem !important;
     }
 
     .community {
@@ -1261,14 +1265,14 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 30rem;
+        margin-top: 30rem !important;
 
     }
 
     .community1 img {
         width: 100%;
         height: 280px;
-        margin-top: 8rem;
+        margin-top: 2rem !important;
         margin-left: 0px;
     }
 
@@ -1536,7 +1540,7 @@
         border: 2px solid white;
         border-radius: 5px;
         color: white;
-        margin-top: 1rem;
+        margin-top: 0rem;
         transition: color 2s linear;
         position: relative;
     }
@@ -1965,7 +1969,7 @@
         flex-direction: column;
         width: 100%;
         height: 130vh;
-        margin-top: 11rem !important;
+        margin-top: 4rem !important;
     }
 
     .expert_1 {
@@ -1973,7 +1977,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 11rem;
+        margin-top: 0rem;
     }
 
     .expert_1 h2 {
