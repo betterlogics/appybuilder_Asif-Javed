@@ -487,8 +487,8 @@
     }
 
     .img1 img {
-        width: 90%;
-        height: 150px;
+        width: 100%;
+        height: 200px;
     }
 
     .expert {
@@ -1202,8 +1202,8 @@
     }
 
     .img1 img {
-        width: 90%;
-        height: 150px;
+        width: 100%;
+        height: 200px;
     }
 
     .img img {
@@ -1657,7 +1657,10 @@
         font-size: 10px;
         margin-top: -11px;
     }
-
+    .img1 img {
+        width: 100%;
+        height: 200px;
+    }
     .features p {
         color: black !important;
         font-size: 10px;
@@ -3220,7 +3223,13 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width:1024px) and (max-width:1440px) {
-
+    .section1 {
+        background-image: url(/images/slider-bg-1.jpg);
+        width: 100%;
+        height: auto !important;
+        margin: 0px;
+        margin-top: -20px;
+    }
     .header ul li a {
         text-decoration: none;
         color: white;
@@ -3261,7 +3270,7 @@
     .section1 {
         /* background-image: url(/images/slider-bg-1.jpg); */
         width: 100%;
-        height: 100vh !important;
+        height: auto !important;
         /* margin: 0px;
         margin-top: -20px; */
     }
@@ -3437,35 +3446,37 @@
         position: fixed;
         margin-top: -20px;
         width: 100%;
-        height: 25%;
+        height: 15%;
         border: none;
         border-radius: 0px;
         background: transparent;
         margin-bottom: 0px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        /* padding-top: 100px; */
     }
+   
 
     .head2 img {
         width: 100%;
-        height: 370px !important;
-        margin-top: 10rem !important;
+        height: 450px !important;
+        margin-top: 20rem !important;
     }
 
     .main h1 {
         color: white;
         font-size: 30px;
-        margin-top: 8rem !important;
+        margin-top: 9rem !important;
     }
 
     .main {
         margin-left: 30px;
-        margin-top: 0rem;
+        margin-top: 5rem;
     }
 
     .section1 {
         /* background-image: url(/images/slider-bg-1.jpg); */
         width: 100%;
-        height: 110vh !important;
+        height: auto !important;
         /* margin: 0px;
         margin-top: -20px; */
     }
